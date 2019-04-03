@@ -1,4 +1,4 @@
-# générateur nom français for Sketch
+# Générateur de nom français pour Sketch
 Quelques fois que nous voulons prototype plus réalisé possible,c'est pourquoi j'ai toujours voulu créer un contenu aléatoire pour le symbole. vous pouvez sélectionner un ensemble de symboles, puis générer de manière aléatoire du contenu à écrire dans Remplacements, le nom de famille et le nom utilisés ne sont pas complètement conformes aux statistiques complètes des différents noms en France, mais cela devrait suffire ~
 
 ![](https://cdn.dribbble.com/users/2720790/screenshots/5463158/dip_image_300_10.jpg)
