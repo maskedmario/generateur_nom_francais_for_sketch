@@ -4,7 +4,7 @@ Quelques fois que nous voulons prototype plus réalisé possible,c'est pourquoi 
 ![](https://cdn.dribbble.com/users/2720790/screenshots/5463158/dip_image_300_10.jpg)
 
 # Installation
-- [**cliquer à télecharger**](https://github.com/maskedmario/generateur_nom_francais_for_sketch.zip)
+- Download and unzip the [**Plug-in package.**](https://github.com/maskedmario/generateur_nom_francais_for_sketch.zip)
 - Double click the **generateur_nom_francai.sketchplugin** file.
 # Usage
-- and you can select multiple objects.
+- You can select one or multiple objects.
