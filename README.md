@@ -5,7 +5,7 @@ Quelques fois que nous voulons prototype plus réalisé possible,c'est pourquoi 
 
 # Installation
 - Download and unzip the [**Plug-in package.**](https://github.com/maskedmario/generateur_nom_francais_for_sketch.zip)
-- Double click the **generateur_nom_francai.sketchplugin** file.
+- Double click the **generateur_nom_francais_for_sketch.sketchplugin** file.
 # Usage
 - You can select one or multiple objects.
 # Changelog
