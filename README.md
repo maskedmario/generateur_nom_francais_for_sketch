@@ -8,4 +8,3 @@ Quelques fois que nous voulons prototype plus réalisé possible,c'est pourquoi 
 - Double click the **generateur_nom_francais_for_sketch.sketchplugin** file.
 # Usage
 - You can select one or multiple objects.
-# Changelog
