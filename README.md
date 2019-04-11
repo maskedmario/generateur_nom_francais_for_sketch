@@ -8,3 +8,10 @@ A small SketchApp plugin that allows to create french names.
 - Double click the **FrenchName.sketchplugin** file.
 # Usage
 - You can select one or multiple objects.
+## Upcoming features
+* More types of data
+* Fetch content directly from different online sources
+* Easier extensibility
+
+## Feature requests & feedback
+Ping me on [twitter](https://twitter.com/yizhang_v) or follow for updates.
