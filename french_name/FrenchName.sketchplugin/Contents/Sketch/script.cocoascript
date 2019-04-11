@@ -1,0 +1,37 @@
+var onRun = function(context) {
+
+    var selectedLayers = context.selection;
+    var selectedCount = selectedLayers.count();
+
+
+
+    // Process names
+    for (var i = 0; i < selectedCount; i++) {
+
+        var layer = selectedLayers[i];
+
+        var humanNameFirst = ["JOSSERAND ","FLAMANT ","GUILLAUMIN ","RICHAUD ","LAGIER ","DALMASSO ","VOLLE ","CHARLIER ","SOULA ","FEVRE ","ALBOUY ","ESPOSITO ","MADELAINE ","JUILLARD ","VIGNAUD ","VINET ","BEDU ","SANTONI ","ALBERTINI ","NOIROT ","LE CALVEZ ","PEYROT ","MAZEAU ","VUILLEMIN ","BLACHE ","DELAMARE ","SEVESTRE ","CASTEX ","LAFFARGUE ","LEGLISE ","NIVET ","ARNAULT ","CRETIN ","DUPOUY "];
+        var humanNameDoubleForThree = ["Gabriel","Louis","Raphaël","Jules","Adam","Lucas","Léo","Hugo","Arthur","Nathan","Paul"];
+        var humanNameSecondForTwo = ["	Mathis","Axel","Victor","Antoine","Valentin","Martin","Marius","	Clément","	Baptiste","Maxime","Samuel","Léon","Augustin","Emma","Louise","Jade","	Alice","Chloé","Lina","Léa","Manon","Rose","Anna","Inès","Camille","	Ambre","Léna","Juliette","Julia","Lou","Sarah","Lucie","Jeanne","Romane","Agathe","Eva","Charlotte","Lucien","Auguste","Abel","Alban"];
+        var humanNameSecondForThree = ["Jacques-","Jean-","Pascal-","Paul-","François-"];
+        var humanNameThirdForThree = ["Albert","Alexandre","Antoine","Henri","Yves","André","Armand","Arthur","Aurélien","Benoît","Cédric","Christophe","Clair","Claude","Clément","Emile","Etienne","François","Frédéric","Gabriel","Gaspard","Gauthier","Georges","André","Antoine","Henri"];
+        var twoOrThree = Math.random();
+		if (twoOrThree > 0.97) {
+			a = Math.floor(Math.pow(Math.random(), 3) * humanNameFirst.length + 1)-1;
+			b = Math.floor(Math.pow(Math.random(), 1.1) * humanNameDoubleForThree.length + 1)-1;
+			layer.stringValue = humanNameFirst[a] + humanNameDoubleForThree[b];
+		}
+		else if (twoOrThree > 0.6) {
+		 	m = Math.floor(Math.pow(Math.random(), 3) * humanNameFirst.length + 1)-1;
+		 	n = Math.floor(Math.pow(Math.random(), 1.5) * humanNameSecondForTwo.length + 1)-1;
+		 	layer.stringValue = humanNameFirst[m] + humanNameSecondForTwo[n];
+		 }
+		 else {
+		 	x = Math.floor(Math.pow(Math.random(), 3) * humanNameFirst.length + 1)-1;
+		 	y = Math.floor(Math.pow(Math.random(), 1.5) * humanNameSecondForThree.length + 1)-1;
+		 	z = Math.floor(Math.pow(Math.random(), 1.5) * humanNameThirdForThree.length + 1)-1;
+		 	layer.stringValue = humanNameFirst[x] + humanNameSecondForThree[y] + humanNameThirdForThree[z];
+		 }
+         
+    };
+};

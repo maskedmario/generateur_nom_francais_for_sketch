@@ -1,0 +1,25 @@
+{
+  "author" : "maskedmario",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "FrenchName",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "title" : "FrenchName",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.example.sketch.28df490e-f115-4042-be62-586478382850",
+  "version" : "1.0",
+"icon": "icons/icon.png",
+  "description" : "",
+  "authorEmail" : "amekozone@hotmail.com",
+  "name" : "french name"
+}
