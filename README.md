@@ -2,6 +2,8 @@
 A small SketchApp plugin that allows to create french names.
 
 ![](https://cdn.dribbble.com/users/2720790/screenshots/6281851/gif_french_dribble.gif)
+![](https://cdn.dribbble.com/users/2720790/screenshots/6823169/french_name.gif)
+
 
 # Installation
 - Download and unzip the [**Plug-in package.**](https://codeload.github.com/maskedmario/generateur_nom_francais_for_sketch/zip/master)
